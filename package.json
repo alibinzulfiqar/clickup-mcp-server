@@ -1,0 +1,42 @@
+{
+  "name": "@dev2production/clickup-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for ClickUp project management — tasks, docs, goals, time tracking & more. Developed by Dev2Production.",
+  "author": "Dev2Production <info@dev2production.com> (https://dev2production.com)",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "clickup-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "clickup",
+    "model-context-protocol",
+    "ai",
+    "project-management",
+    "tasks",
+    "productivity",
+    "dev2production"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alibinzulfiqar/clickup-mcp-server"
+  },
+  "homepage": "https://dev2production.com",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
